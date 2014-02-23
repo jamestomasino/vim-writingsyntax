@@ -2,10 +2,21 @@
 " Language: Adjectives
 " Maintainer: James Tomasino <github@jamestomasino.com>
 " URL: https://github.com/jamestomasino/vim-adjectives
-" Created: Dec 14, 2011
-" Modified: Sep 4, 2013
+" Created: Feb 23, 2014
+" Modified: Feb 23, 2014
+
+if !exists("main_syntax")
+  if version < 600
+    syntax clear
+  elseif exists("b:current_syntax")
+    finish
+  endif
+  let main_syntax = 'adj'
+endif
 
 let b:current_syntax = "adj"
+
+syn case ignore
 
 syn keyword adjective acer after airier airiest airy all-arounder angrier angriest angry archer artier artiest arty ashier ashiest ashy assaulter attacker backer bad baggier baggiest baggy balkier balkiest balky balmier balmiest balmy bandier bandiest bandy bargainer barmier barmiest barmy battier battiest batty baulkier baulkiest baulky bawdier bawdiest bawdy bayer beadier beadiest beady beastlier beastliest beastly beater beefier beefiest beefy beerier beeriest beery bendier bendiest bendy best better big bigger biggest bitchier bitchiest bitchy biter bittier bittiest bitty blearier bleariest bleary bloodier bloodiest bloodthirstier bloodthirstiest bloodthirsty bloody blowier blowiest blowsier blowsiest blowsy blowy blowzier blowziest blowzy blue bluer bluest boner bonier boniest bonnier bonniest
 syn keyword adjective bonny bony boozier booziest boozy boskier boskiest bosky bossier bossiest bossy botchier botchiest botchy bother bouncier bounciest bouncy bounder bower brainier brainiest brainy brashier brashiest brashy brassier brassiest brassy brawnier brawniest brawny breathier breathiest breathy breezier breeziest breezy brinier briniest briny britisher broadcaster brooder broodier broodiest broody bubblier bubbliest bubbly buggier buggiest buggy bulkier bulkiest bulky bumpier bumpiest bumpy bunchier bunchiest bunchy burlier burliest burly burrier burriest burry burster bushier bushiest bushy busier busiest buster bustier bustiest busty busy cagey cagier cagiest camper cannier canniest canny canter cantier cantiest canty caster catchier catchiest catchy cattier cattiest catty cer chancier chanciest
