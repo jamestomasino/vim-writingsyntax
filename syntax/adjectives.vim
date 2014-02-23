@@ -45,6 +45,6 @@ syn keyword adjective thin thinner thinnest third-rater thirstier thirstiest thi
 syn keyword adjective unrulier unruliest unruly untidier untidiest untidy vastier vastiest vasty vest viewier viewiest viewy wackier wackiest wacky wan wanner wannest warier wariest wary washier washiest washy waster wavier waviest wavy waxier waxiest waxy weaklier weakliest weakly wealthier wealthiest wealthy wearier weariest weary webbier webbiest webby weedier weediest weedy weenier weeniest weensier weensiest weensy weeny weepier weepiest weepy weightier weightiest weighty well welsher wet wetter wettest whackier whackiest whacky whimsier whimsiest whimsy wholesaler wieldier wieldiest wieldy wilier wiliest wily windier windiest windy winier winiest winterier winteriest wintery wintrier wintriest wintry winy wirier wiriest wiry wispier wispiest wispy wittier wittiest witty wonkier wonkiest
 syn keyword adjective wonky woodier woodiest woodsier woodsiest woodsy woody woollier woolliest woolly woozier wooziest woozy wordier wordiest wordy worldlier worldliest worldly wormier wormiest wormy worse worst worthier worthiest worthy wrier wriest wry wryer wryest yare yarer yarest yeastier yeastiest yeasty young younger youngest yummier yummiest yummy zanier zaniest zany zippier zippiest zippy
 
-hi def link weasel Type
-hi def link passive Statement
+hi def link weasel Identifier
+hi def link passive String
 hi def link adjective Constant
