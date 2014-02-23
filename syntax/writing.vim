@@ -1,7 +1,7 @@
 " Vim syntax file
-" Language: Adjectives
+" Language: Writing
 " Maintainer: James Tomasino <github@jamestomasino.com>
-" URL: https://github.com/jamestomasino/vim-adjectives
+" URL: https://github.com/jamestomasino/vim-writingsyntax
 " Created: Feb 23, 2014
 " Modified: Feb 23, 2014
 
@@ -11,10 +11,10 @@ if !exists("main_syntax")
   elseif exists("b:current_syntax")
     finish
   endif
-  let main_syntax = 'adj'
+  let main_syntax = 'writing'
 endif
 
-let b:current_syntax = "adj"
+let b:current_syntax = "writing"
 
 syn case ignore
 
