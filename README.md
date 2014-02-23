@@ -26,9 +26,11 @@ If you prefer tpope's pathogen, that's ok. Just clone it:
     cd ~/.vim/bundle
     git clone https://github.com/jamestomasino/vim-adjectives.git
 
-## Configuration
+## Use
 
-No configuration is needed.
+To enable the highlighting:
+
+    :setf adjectives
 
 
 ## License
