@@ -2,6 +2,7 @@
 
 Bundle for vim to highlight adjectives, passive language and weasel words.
 
+<a href="http://imgur.com/5LJYy6t"><img src="http://i.imgur.com/5LJYy6t.png" title="Hosted by imgur.com"/></a>
 ## Overview
 
 This project is inspired by the article [Shell scripts for passive voice, weasel words, and duplicates](http://matt.might.net/articles/shell-scripts-for-passive-voice-weasel-words-duplicates/) by [Matt Might](https://twitter.com/mattmight). There have been other vim implementations ([see here](https://github.com/davidbeckingsale/writegood.vim)) but they didn't use a syntax file or address adjective overuse. 
